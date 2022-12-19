@@ -1210,7 +1210,8 @@ def load_config(path):
 
     default_config = {
         'blacklists': [],
-        'channels': ['conda-forge', 'bioconda', 'defaults'],
+        'channels': ['https://packages.qiime2.org/qiime2/2022.11/tested/',
+                     'conda-forge', 'bioconda', 'defaults'],
         'requirements': None,
         'upload_channel': 'bioconda'
     }
